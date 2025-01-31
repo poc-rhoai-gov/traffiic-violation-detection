@@ -1,7 +1,9 @@
 numpy
 matplotlib
 opencv-python
+opencv-python-headless
 pytesseract
 easyocr
 mysql-connector-python
 Pillow
+

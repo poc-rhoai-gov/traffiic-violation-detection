@@ -18,3 +18,6 @@ VOLUME /var/lib/mysql/data
 # COPY ./init.sql /docker-entrypoint-initdb.d/
 
 # The image already includes an entrypoint script that will initialize the database
+
+RUN pip install -r requirements.txt
+RUN dnf install -y python3-tkinter
